@@ -14,7 +14,7 @@ main(){
     max = 0;
     while((len = get_line(line, MAXLINE)) > 0){
         reverse(line);
-        printf("%s", line);
+        printf("%s ", line);
     }
 
 }
